@@ -56,11 +56,10 @@ class App extends Component {
 
         <div className="main-content">
           <h1 className="title">
-            <img className="title-image" src="stranger-ipsum-title.png" alt="Stranger Ipsum" />
+            Te Pūkenga Ipsum
           </h1>
           <p className="description">
-            Specify the number of paragraphs of text you would like to generate. All sentences are
-            quotes pulled from the Stranger Things Netflix series (Seasons 1 & 2).
+            Specify the number of paragraphs of text you would like to generate.
           </p>
           <form action="/" method="POST" onSubmit={this.handleSubmit}>
             <input
