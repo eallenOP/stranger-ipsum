@@ -3,13 +3,13 @@
 @import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
 
 body {
-  color: #f0f0f0;
+  color: #f6f6f6;
   background-color: #152728;
   text-align: center;
   margin: 40px auto;
   max-width: 800px;
   padding: 0 40px;
-  font: 16px 'Open Sans', sans-serif;
+  font: 16px 'Gotham', 'Avenir', 'Open Sans', sans-serif;
 }
 
 p {
@@ -83,13 +83,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .description {
-  font-family: 'Poppins';
-  font-weight: 700;
-  text-transform: uppercase;
   color: #fff;
   font-size: 16px;
-  word-spacing: 3px;
-  letter-spacing: 1px;
 }
 
 .paragraph-number {
@@ -103,7 +98,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .paragraph-number:focus {
-  box-shadow: 0px 0px 50px 5px #f61b1b;
+  box-shadow: 0px 0px 50px 5px #58ab40;
 }
 
 .generate-button,
@@ -111,7 +106,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-family: 'Poppins', Helvetica, serif;
   border-width: 0px;
   padding: 6px 12px;
-  background-color: #f61b1b;
+  background-color: #58ab40;
   color: #fff;
   transition: background-color 500ms, color 500ms, box-shadow 500ms;
 }
@@ -125,8 +120,8 @@ input[type=number]::-webkit-outer-spin-button {
 .generate-button:focus,
 .copy-button:focus {
   background-color: #000;
-  color: #f61b1b;
-  box-shadow: 0px 0px 50px 5px #f61b1b;
+  color: #58ab40;
+  box-shadow: 0px 0px 50px 5px #58ab40;
   outline: none;
 }
 

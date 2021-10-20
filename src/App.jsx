@@ -46,12 +46,12 @@ class App extends Component {
     return (
       <div>
         <div className="video-container">
-          <video className="video-background" preload="auto" autoPlay loop muted>
+          {/* <video className="video-background" preload="auto" autoPlay loop muted>
             <source
               src="https://player.vimeo.com/external/178812339.hd.mp4?s=bf1db383854643d8d92aac96a5bca01802122d46&amp;profile_id=174"
               type="video/mp4"
             />
-          </video>
+          </video> */}
         </div>
 
         <div className="main-content">
