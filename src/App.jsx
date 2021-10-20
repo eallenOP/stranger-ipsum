@@ -84,17 +84,6 @@ class App extends Component {
               />
             </>
           )}
-          <div className="github-button-wrapper">
-            <a
-              className="github-button"
-              href="https://github.com/robertcoopercode/stranger-ipsum"
-              data-icon="octicon-star"
-              data-show-count="true"
-              aria-label="Star engineering-robert/stranger-ipsum-react on GitHub"
-            >
-              Star
-            </a>
-          </div>
         </div>
 
         <div
